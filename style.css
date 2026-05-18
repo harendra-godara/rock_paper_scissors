@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    /* height: 50vh; */
+    /* width: 100vw; */
+    display: flex;
+}
+.choice{
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+img{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    border-radius: 50%;
+}
